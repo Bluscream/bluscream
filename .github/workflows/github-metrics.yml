@@ -179,6 +179,7 @@ jobs:
           plugin_steam_recent_games_limit: 5
           plugin_steam_sections: player, most-played, recently-played
           plugin_steam_user: 76561198022446661
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           
           plugin_support: yes
           
